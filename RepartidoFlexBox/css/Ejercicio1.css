@@ -12,11 +12,28 @@ box-sizing: border-box;
 
 }
 
+.caja.primero {
 
-.caja {
-    
     width: 150px;
     height: 150px;
     display: flex;
     border: 2px solid red;
+    order: 2;
+
+}
+.caja.segundo {
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 2px solid red;
+    }
+
+.caja.tercero {
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 2px solid red;
+    order: -1;
 }
