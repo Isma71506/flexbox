@@ -4,7 +4,6 @@
 display: flex;
 justify-content: space-evenly;
 width: 600px;
-height: 400px;
 align-items: center;
 flex-direction: row;
 flex-wrap: wrap;
@@ -14,23 +13,10 @@ box-sizing: border-box;
 }
 
 
-.caja.a {
-
-    display: flex;
-    flex-grow: 1;
-    border: 2px solid red;
-}
-.caja.b { 
-
-    display: flex;
-    border: 2px solid red;
-    flex-grow: 2;
-}
-
-.caja.c {
+.caja {
     
+    width: 150px;
+    height: 150px;
     display: flex;
-    flex-grow: 1;
     border: 2px solid red;
-
 }
