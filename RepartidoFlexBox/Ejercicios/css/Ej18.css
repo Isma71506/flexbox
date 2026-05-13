@@ -1,0 +1,28 @@
+.lista-tarjetas {
+    
+    display: flex;
+    padding: 5px;
+    align-items: stretch;
+    box-sizing: border-box;
+    border: 2px solid red;
+    gap: 10px;
+    flex-wrap: nowrap;
+  
+}
+
+.tarjeta {
+
+    display: flex;
+    flex-direction: column;
+    border: 5px solid silver;
+    width: 200px;
+    align-items: stretch;
+    flex: 1 1 0%;
+}
+
+.tarjeta button {
+
+    display: flex;
+    
+    margin-top: auto;
+}

@@ -1,0 +1,23 @@
+.contenedor {
+
+    width: 400px;
+    height: 400px;
+display: flex;
+height: 300px;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+border: 2px solid blue;
+
+
+}
+
+.caja { 
+
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}

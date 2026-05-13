@@ -1,0 +1,9 @@
+.contenedor {
+
+display: flex;
+justify-content:center;
+height: 300px;
+align-items: center;
+flex-direction:column;
+border: 2px solid red;
+}
